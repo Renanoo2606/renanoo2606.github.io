@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E5E0D8;
+    color: black;
+    padding-top: 80px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    background-color: #AA6C39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #552600 solid 5px;
+    z-index: 1000;
+}
+
+#logodiv {
+    width: 100px;
+    padding-left: 50px;
+}
+
+#logo {
+    width: 100%;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+#menu a:hover {
+    background-color: #AA6C39;
+}
+
+.dia {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #804515;
+    color: #000000;
+}
+
+#temperatura {
+    display: flex;
+    align-items: center;
+}
+
+#sol {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.fundo {
+    background-color: #804515;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: #552600 solid 5px;
+}
+
+#titulo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.intro {
+    font-size: 1.2em;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.destaque {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E0D8;
+    flex-direction: column;
+    align-items: center;
+}
+
+#talvez {
+    display: flex;
+}
+
+.T1 h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.um, .dois {
+    width: 700px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+.um img {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.um p {
+    text-align: center;
+}
+
+#enchente {
+    width: 200px;
+}
+
+#eletricista {
+    width: 300px;
+}
+
+#jorge {
+    width: 190px;
+}
+
+.dois {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cima, .baixo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.cima img, .baixo img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cima p, .baixo p {
+    flex: 1;
+}
+
+.baixo {
+    border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+}
+
+a:hover .um {
+    background-color: #ddd;
+}
+
+.charge, .lendas {
+    border: 2px #552600 solid;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #804515;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.charge img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.lendas img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#texto2, #texto3 {
+    flex: 1;
+    padding-top: 5%;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+#sobre {
+    width: 90%;
+    margin-top: 5%;
+    background-color: #AA6C39;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#sobre .coluna {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sobre .justificado {
+    text-align: justify;
+}
+
+#sobre img {
+    border-radius: 8px;
+    width: 500px;
+    float: right;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+footer {
+    border-top: 5px #552600 solid;
+    background: #804515;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    background-color: #804515;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background: #552600;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        height: 100px;
+    }
+
+    #logodiv, #menu {
+        padding: 10px;
+    }
+
+    #menu {
+        visibility: hidden;
+    }
+
+    .dia {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .fundo {
+        width: 100%;
+    }
+
+    #talvez {
+        flex-direction: column;
+    }
+
+    .um, .dois, .cima, .baixo {
+        width: 100%;
+        max-width: none;
+    }
+
+    #sobre .coluna {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #sobre img {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .charge, .lendas {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .um img, .charge img, .lendas img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    .intro {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
