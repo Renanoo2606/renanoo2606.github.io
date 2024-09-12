@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mercado São João</title>
+        <link rel="stylesheet" href="style.css">
+    </head>   
+    <body>
+        <header>
+            <div id="logodiv">
+                <img id="logo" src="supermercado.png" alt="Mercado São João"/>
+            </div>
+            <ul id="menu">
+                <li><a href="#estoque">Estoque</a></li>
+                <li><a href="#historico">Historico</a></li>
+                <li><a href="#simulador">Simulador</a></li>
+            </ul>
+        </header>
+        <section class="fundo" id="background">
+        <div id="imagem_fundo">
+            <h1 id="titulo">Mercado São João</h1>
+            <h2 id="subtitulo">Um site para os funcionarios do Mercado</h2>
+        </div>
+        </section>
+        <section class="estoque" id="estoque">
+            <h1>Gerenciador de Estoque</h1>
+            <button onclick="listarProdutosEmEstoque()" id="botao">Lista de Produtos em estoque</button>
+            <button onclick="retirarProduto()" id="botao">Retirar os Produtos do estoque</button>
+            <button onclick="adicionarProduto()" id="botao">Adicionar os Produtos ao estoque</button>
+            <button onclick="cadastrarProduto()" id="botao">Cadastar produto</button>
+            <button onclick="niveisEstoque()" id="botao">Niveis de Estoque</button>
+                <div id="saida"></div>
+        </section>
+        <section class="historico" id="historico">
+            <h1>Historico</h1>
+            <button onclick="historicoEntradaSaida()" id="botao">Historico de entrada e Saida de produtos</button>
+            <div id="exit"></div>
+        </section>
+        <section class="simuladores" id="simulador">
+            <h1>Simuladores</h1>
+            <button onclick="calculadoraDesconto()" id="botao">Calculadora de Desconto</button>
+            <button onclick="simulacaoVenda()" id="botao">Simulador de Venda</button>
+            <div id="Saida"></div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <p><a href="https://www.instagram.com/renan_0_soares" target="_blank">@renan_0_soares</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quer Sugerir algo ou denunciar algo suspeiro ?</h3>
+                    <h3>Contatos</h3>
+                    <p>Telefone: <a href="tel:+55519993716509">51 99371-6509</a></p>
+                    <p>Email: <a href="mailto:contato@olhosatentos.com">sãojoão@mercado.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mercado São João. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
